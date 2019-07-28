@@ -1,0 +1,18 @@
+HTTP(是基于TCP的)
+    data = """GET %s HTTP/1.0\r\nHost:baidu.com\r\n\r\n
+    #回车，请求头，请求体
+    #类似于
+    GET /index HTTP/1.0
+    Host:baidu.com
+    content-Type:application/json
+    adadads
+
+
+    client=socket()
+    client.connect(....)
+    client.send(data)
+
+TCP
+    client=socket()
+    client.connect(....)
+    client.send(b'adsdasdadad')
