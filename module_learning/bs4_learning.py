@@ -104,7 +104,7 @@ soup = BeautifulSoup(html_doc,features="lxml") #features="html.parser"
 
 # ####### 正则 #######
 import re
-# rep = re.compile('p')
+# rep = re.compile('p')  #re.compile用途
 # rep = re.compile('^p')
 # v = soup.find_all(name=rep)
 # print(v)
